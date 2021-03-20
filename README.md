@@ -130,20 +130,20 @@ Model is trained for 150 epochs and no overfitting is apparent yet from the trai
 
         For phi
         Average Absolute Error is: 0.027177307317452628
-        97.28226926825474% Data was    recovered
+        97.28226926825474% Data was recovered
         ```
 
 ## Error Analysis
 
 * Pair Plots
 
-    From this plot we can understand which variables are most likely to be erroneouly decoded, together. 
+    From this plot we can understand which variables are most likely to be erroneously decoded, together. 
 
-    Thankfully, the only case in which 2 variables have high residue together is of E and pt, which is expected due to their high correlation we had observed earlier.
+    Thankfully, the only case in which 2 variables have high residue together is of E and pt, which is expected due to their high correlation, which we had observed earlier.
 
     ![pair](plots/outputPlots/residuePairs)
 
-* Relative Erro by bins
+* Relative Error by bins
 
     From this we can know what ranges of values are toughest to decode after encoding.
 
