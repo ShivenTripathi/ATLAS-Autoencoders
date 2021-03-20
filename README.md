@@ -61,7 +61,7 @@ We generate correlation plot between variables. It is found E and pt are strongl
 
 After the previous step of custom normalisation, these variables are standard normalised before being passed to the Auto Encoder. 
 
-A 90-10-10 train,validation and test split is used for training and evaluating the model.
+A 80-10-10 train,validation and test split is used for training and evaluating the model.
 
 ### Model Training
 
